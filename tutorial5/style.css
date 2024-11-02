@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    background-image: url("https://images.pexels.com/photos/531767/pexels-photo-531767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+}
+
+h1,
+h2,
+h4 {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 40px 50px;
+}
+
+#nav h2 {
+    font-size: 30px;
+}
+
+#nav i {
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#full {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: #ffffff76;
+    backdrop-filter: blur(10px);
+    padding: 100px 50px;
+}
+
+#full h4 {
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#full i {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-weight: 600;
+    font-size: 25px;
+}
