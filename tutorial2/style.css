@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'gg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    /* font-family: gg; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    /* background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(100, 196, 228);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+
+/* 
+h1 {
+    position: realtive;
+    font-size: 60px;
+    background-color: red;
+    padding: 20px;
+} */
+
+h1 {
+    padding: 0;
+    margin: 0
+}
+
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 h1 {
+    font-size: 40vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: translateX(-150%);
+    -webkit-transform: translateX(-150%);
+    -moz-transform: translateX(-150%);
+    -ms-transform: translateX(-150%);
+    -o-transform: translateX(-150%);
+}

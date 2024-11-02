@@ -66,7 +66,7 @@ tl.from("h4", {
     y: -30,
     opacity: 0,
     duration: 1,
-    stagger: 0.3
+    stagger: 0.3 // 차례대로 실행된다
 })
 
 tl.from("h1", {
