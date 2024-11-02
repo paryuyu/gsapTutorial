@@ -4,6 +4,11 @@
 </br>
 </br>
 1. tutorial 1 : create animations
+</br>
 2. tutorial 2 : scroll trigger
+</br>
 3. tutorial 3 : svg animation
+</br>
 4. tutorial 4 : cursor animation
+</br>
+5. tutorial 5 : timeline animation
